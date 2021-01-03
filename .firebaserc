@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "homekaji-staging",
+    "default": "homekaji"
+  }
+}
