@@ -1,9 +1,13 @@
 <template>
   <div>
     <AuthWrapper>
-      <h1>TOP Page</h1>
-      Display when logged in.
-      <MyFooter></MyFooter>
+      <section class="px-2 py-6">
+        <h1>Housework List Page</h1>
+        <div>
+          <HouseworkList></HouseworkList>
+        </div>
+        <MyFooter></MyFooter>
+      </section>
       <template #logout>
         <p>Googleログイン</p>
         <GoogleAuth></GoogleAuth>
