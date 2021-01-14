@@ -5,7 +5,7 @@ ports:
 tasks:
   - before: nvm install 10
     init: yarn && cd functions && yarn
-    command: yarn dev
+    command: cd ../ && yarn dev
 
 vscode:
   extensions:
