@@ -11,4 +11,4 @@ USER gitpod
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN nvm install 10
+RUN nvm install 10 --reinstall-packages-from=node

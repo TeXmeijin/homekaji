@@ -3,6 +3,8 @@ import { NuxtConfig } from '@nuxt/types'
 const config: NuxtConfig = {
   srcDir: 'src',
 
+  telemetry: false,
+
   head: {
     title: 'homekaji',
     meta: [
