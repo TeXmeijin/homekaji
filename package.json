@@ -14,10 +14,11 @@
     "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.3.0",
+    "firebase-tools": "^9.2.0",
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "dev": "nuxt-ts",
+    "dev": "NODE_ENV=development nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",
@@ -31,7 +32,7 @@
     "@nuxtjs/pwa": "^3.3.3",
     "core-js": "^3.8.1",
     "fibers": "^5.0.0",
-    "firebase": "^8.2.1",
+    "firebase": "^8.2.2",
     "firebase-admin": "^9.4.2",
     "nuxt": "^2.14.12",
     "sass": "^1.32.0",
