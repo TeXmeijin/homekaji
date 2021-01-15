@@ -29,10 +29,10 @@ const config: NuxtConfig = {
         )
         try {
           session.database().goOffline()
-        } catch (e) { }
+        } catch (e) {}
         try {
           session.firestore().terminate()
-        } catch (e) { }
+        } catch (e) {}
       },
     },
   },
