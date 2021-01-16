@@ -18,7 +18,7 @@
     "prettier": "^2.2.1"
   },
   "scripts": {
-    "dev": "nuxt-ts",
+    "dev": "PORT=34567 nuxt-ts",
     "build": "nuxt-ts build",
     "start": "nuxt-ts start",
     "generate": "nuxt-ts generate",

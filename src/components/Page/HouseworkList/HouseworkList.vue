@@ -2,12 +2,13 @@
   <ul>
     <li
       v-for="housework in houseworks"
+      :key="housework.id"
       class="flex items-center justify-between py-6 px-6 shadow rounded-2xl"
     >
       <span class="text-xl font-bold">
         {{ housework.name }}
       </span>
-      <span class="text-3xl text-gray-500"> {{ housework.point }}pt </span>
+      <span class="text-3xl text-gray-700"> {{ housework.point }}pt </span>
     </li>
   </ul>
 </template>
